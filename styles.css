@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(to right, #0b5264 , #6dd5ed);
+}
+
+#Register{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+#Register h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#Register button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 50px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-field input{
+    border: 2px solid gray;
+    border-radius: 50px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-field input:focus{
+    outline: 0;
+}
+
+.input-field.success input{
+    border-color: #7cfc00;
+}
+
+.input-field.error input{
+    border-color: #ff3860;
+}
+
+.input-field .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
